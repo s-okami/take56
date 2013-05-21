@@ -4,7 +4,7 @@ $(window).load(function() {
     if (!canvas || !canvas.getContext) return false;
     var context = canvas.getContext('2d');
     var image = new Image();
-    image.src = "/img/sample.jpg";
+    image.src = "img/sample.jpg";
     
     image.onload = function(e) {
         context.drawImage(image, 0, 0);
